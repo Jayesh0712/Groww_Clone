@@ -235,6 +235,7 @@ margin-left: 10px;
 }
 
 .sub_3_left{
+  display: flex;
   color: rgb(68, 71, 91);
   font-family: Roboto,system-ui;
 }
@@ -269,6 +270,7 @@ margin-left: 10px;
 }
 
 .sub_3_m_heading{
+  display: flex;
   color: rgb(68, 71, 91);
 }
 
@@ -277,6 +279,7 @@ margin-left: 10px;
   display: flex;
   flex-direction: column;
   background-color: #e5faf5;
+  justify-content: center;
   height: 400px;
   margin-top: 200px;
   margin-bottom: 400px;
@@ -285,11 +288,32 @@ margin-left: 10px;
 
 .sub_4_searchbycategories_main{
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
+  justify-content: center;
 }
-.sub_4_buttons{
+.super_4{
+  display: flex;
+  flex-direction: column;
+  justify-content:space-around;
+  width: 100%;
+  background-color: #e5faf5;
+}
+
+.bdr{
+  border-radius: 50%;
+}
+
+.row_1{
   display: flex;
   flex-direction: row;
+  justify-content: space-around;
+  padding-left: 10px;
+}
+
+.row_2{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
 }
 
 .sub_5{
@@ -436,7 +460,37 @@ line-height :28px;
 }
 
 .thunder img{
+  display: flex;
   height: 35px;
   width: 35px;
-  margin-right: 20px;
+}
+
+.high_return{
+  display : flex;
+  flex-direction: column;
+}
+
+.taxsave{
+  display: flex;
+  flex-direction: column;
+}
+
+.btfd{
+  display : flex;
+  flex-direction: row;
+}
+
+.Topcompanies{
+  display: flex;
+  flex-direction: row;
+}
+
+.sip{
+  display : flex;
+  flex-direction: row;
+}
+
+.sector_bets{
+  display: flex;
+  flex-direction: column;
 }
